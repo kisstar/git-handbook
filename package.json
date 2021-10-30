@@ -1,0 +1,11 @@
+{
+  "name": "git-handbook",
+  "description": "Git 使用手册。",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "Git",
+    "handbook"
+  ],
+  "author": "kisstar <dwh.chn@foxmail.com>"
+}

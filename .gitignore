@@ -1,0 +1,21 @@
+# http://help.github.com/ignore-files/
+
+# IDEs and editors
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# compiled output
+**/dist
