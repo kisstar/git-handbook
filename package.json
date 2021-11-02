@@ -3,9 +3,17 @@
   "description": "Git 使用手册。",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "serve": "vitepress serve src"
+  },
   "keywords": [
     "Git",
     "handbook"
   ],
-  "author": "kisstar <dwh.chn@foxmail.com>"
+  "author": "kisstar <dwh.chn@foxmail.com>",
+  "devDependencies": {
+    "vitepress": "^0.20.0"
+  }
 }
