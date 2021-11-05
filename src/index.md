@@ -1,1 +1,5 @@
+---
+home: true
+---
+
 # Hello Git
