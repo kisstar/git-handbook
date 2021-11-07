@@ -30,8 +30,17 @@ exports.nav = [
 exports.sidebar = {
   '/commands/': [
     {
-      text: 'Basics',
-      children: [{ text: 'Config', link: '/commands/basics/config' }]
+      text: 'Setup and Config',
+      children: [
+        {
+          text: 'git',
+          link: '/commands/setup-config/git'
+        },
+        {
+          text: 'config',
+          link: '/commands/setup-config/config'
+        }
+      ]
     }
   ]
 }
