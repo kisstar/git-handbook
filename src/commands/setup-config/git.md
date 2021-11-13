@@ -2,6 +2,17 @@
 
 作为顶级的命令，在使用任何一个 Git 提供的命令时都会以此开头，通过它你可以查看或设置 Git 的相关信息。
 
+## 概要
+
+```txt
+git [--version] [--help] [-C <path>] [-c <name>=<value>]
+    [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+    [-p|--paginate|-P|--no-pager] [--no-replace-objects] [--bare]
+    [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+    [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+    <command> [<args>]
+```
+
 ## 选项
 
 ### 版本号
