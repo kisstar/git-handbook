@@ -41,6 +41,15 @@ exports.sidebar = {
           link: '/commands/setup-config/config'
         }
       ]
+    },
+    {
+      text: 'Getting and Creating Projects',
+      children: [
+        {
+          text: 'init',
+          link: '/commands/getting-and-creating-projects/init'
+        }
+      ]
     }
   ]
 }
